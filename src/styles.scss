@@ -20,10 +20,6 @@ $divider-color:        #BDBDBD;
     margin: 0px auto;
     padding: $pad-up-down $pad-left-right;
 }
-
-
-
-
 .background-primary {
     background-color: $background-dark!important;
   }
@@ -36,4 +32,8 @@ $divider-color:        #BDBDBD;
 
 .flex-spacer {
   flex: 1 1 auto;
+}
+.mat-toolbar.mat-primary {
+  background: #512DA8;
+  color: #fff;
 }
