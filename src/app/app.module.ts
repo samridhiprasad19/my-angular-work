@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { DishService } from './services/dish.service';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { PromotionsService } from './services/promotions.service';
+import { LeaderService } from './services/leader.service';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 import { DishdetailComponent } from './dishdetail/dishdetail.component';
@@ -42,7 +43,7 @@ import { ContactComponent } from './contact/contact.component';
     FlexLayoutModule,
     AppRoutingModule
   ],
-  providers: [DishService,PromotionsService],
+  providers: [DishService,PromotionsService,LeaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
