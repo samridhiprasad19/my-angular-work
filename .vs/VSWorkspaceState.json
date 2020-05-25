@@ -3,14 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\about",
     "\\src\\app\\footer",
     "\\src\\app\\header",
+    "\\src\\app\\home",
+    "\\src\\app\\login",
     "\\src\\app\\menu",
     "\\src\\app\\services",
-    "\\src\\app\\shared",
-    "\\src\\assets"
+    "\\src\\app\\shared"
   ],
-  "SelectedNode": "\\src\\app\\services\\leader.service.ts",
+  "SelectedNode": "\\src\\app\\login\\login.component.html",
   "PreviewInSolutionExplorer": false
 }
